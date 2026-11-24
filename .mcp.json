@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "smartsheet": {
+      "type": "http",
+      "url": "https://mcp.smartsheet.com"
+    },
+    "smartsheet-eu": {
+      "type": "http",
+      "url": "https://mcp.smartsheet.eu"
+    },
+    "smartsheet-au": {
+      "type": "http",
+      "url": "https://mcp.smartsheet.au"
+    }
+  }
+}

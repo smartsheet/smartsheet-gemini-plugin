@@ -1,0 +1,27 @@
+{
+  "name": "smartsheet",
+  "displayName": "Smartsheet",
+  "version": "1.0.0",
+  "description": "Make Smartsheet a native part of your AI workflow. Analyze your project timelines, create graphs to summarize your sheet information, all through conversation. The Smartsheet connector eliminates manual data entry and repetitive updates, letting you focus on decisions. Transform how you manage projects with AI that understands your Smartsheet data and can act on it.",
+  "author": {
+    "name": "Smartsheet Inc.",
+    "email": "No direct support email - use https://help.smartsheet.com/contact",
+    "url": "https://www.smartsheet.com"
+  },
+  "repository": "https://github.com/smartsheet/smartsheet-gemini-plugin",
+  "homepage": "https://developers.smartsheet.com/ai-mcp/smartsheet/mcp-server",
+  "keywords": [
+    "smartsheet",
+    "work-management",
+    "project-management",
+    "spreadsheets",
+    "reports",
+    "automation"
+  ],
+  "skills": [
+    "./skills/smartsheet-intelligence/SKILL.md",
+    "./skills/smartsheet-toolsets/SKILL.md",
+    "./skills/smartsheet-stakeholder-reporting/SKILL.md"
+  ],
+  "mcpServers": "./.mcp.json"
+}
